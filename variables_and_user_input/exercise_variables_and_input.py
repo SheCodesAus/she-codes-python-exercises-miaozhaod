@@ -18,7 +18,7 @@ print_cm = f"{distance_km}km = {distance_cm}cm"
 print(print_m)
 print(print_cm)
 
-# Q3
+# Q4
 name = input('What is your name? ')
 height = input('How tall are you (cms)? ')
 output = f"{name} is {height}cms tall."
