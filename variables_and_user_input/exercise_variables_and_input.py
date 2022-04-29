@@ -23,3 +23,16 @@ name = input('What is your name? ')
 height = input('How tall are you (cms)? ')
 output = f"{name} is {height}cms tall."
 print(output)
+
+# Q5
+name_q5 = input('What is your name? ')
+age_q5 = input('How old are you? ')
+age_to_90 = 90 - int(age_q5)
+output_q5 = f"{name_q5} has {age_to_90} years to turn 90"
+print(output_q5)
+
+# Q6
+number1_q6 = input('Enter a float: ')
+number2_q6 = input('Enter another float:')
+output_q6 = int(float(number1_q6) * float(number2_q6))
+print(output_q6)
