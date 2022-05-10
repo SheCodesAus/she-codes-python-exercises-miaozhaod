@@ -1,3 +1,4 @@
+# Q1
 # groceries = [
 #     ["Baby Spinach", 2.78],
 #     ["Hot Chocolate", 3.70],
@@ -15,9 +16,64 @@
 # ornages = input("Number of oranges: ")
 # all_ammounts = [int(baby_spinach), int(hot_chocolate), int(crackers), int(bacon), int(carrots), int(ornages)]
 
-# for grocery in groceries:
-#     print(grocery.append(2))
+# index_list = list(range(0, len(groceries)))
+# for index in index_list:
+#     groceries[index].append(all_ammounts[index])
 
-list = [1, 2, 3]
-list.append(4)
-print(list)
+# all_price = []
+# for grocery in groceries:
+#     item = grocery[0]
+#     price = float("{:.2f}".format(grocery[1] * grocery[2]))
+#     all_price.append(price)
+#     print(f"{item}: {price}")
+
+# print(float("{:.2f}".format(sum(all_price))))
+
+# Q2
+# letters = [
+#     "a",
+#     "b",
+#     "c",
+#     "d",
+#     "e",
+#     "f",
+#     "g",
+#     "h",
+#     "i",
+#     "j",
+#     "k",
+#     "l",
+#     "m",
+#     "n",
+#     "o",
+#     "p",
+#     "q",
+#     "r",
+#     "s",
+#     "t",
+#     "u",
+#     "v",
+#     "w",
+#     "x",
+#     "y",
+#     "z",
+# ]
+# word = input("Enter a word: ")
+# word_arr = list(word)
+# for item in word_arr:
+#     for letter in letters:
+#         if letter == item:
+#             myletter = letter
+#             myletter_position_in_alphabet_list = letters.index(letter)
+#             myletter_position_in_word_list = word_arr.index(item)
+#             print(f"{myletter_position_in_word_list} {myletter}")
+
+# Q3
+# input = int(input("Enter a number: "))
+# for i in range(1, input + 1):
+#     print("*" * i)
+
+# Q4
+input = int(input("Enter a number: "))
+for i in range(1, input + 1):
+    print(i)
