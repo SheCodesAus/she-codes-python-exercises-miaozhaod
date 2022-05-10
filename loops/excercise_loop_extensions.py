@@ -75,5 +75,10 @@
 
 # Q4
 input = int(input("Enter a number: "))
-for i in range(1, input + 1):
-    print(i)
+for i in range(0, input):
+    stars_number = i + i + 1  # to get how many stars in each row
+    total_space = input * 2 - 1  # to get how many spaces each row is taken
+    blanks_number = int((total_space - stars_number) / 2)  # to get the number of spaces before the stars
+    space_print = " " * blanks_number
+    star_print = "*" * stars_number
+    print(f"{space_print}{star_print}")
