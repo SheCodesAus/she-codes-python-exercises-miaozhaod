@@ -1,5 +1,4 @@
 import csv
-from posixpath import split;
 
 # Q4
 with open('colours_213.csv') as csv_file:
